@@ -1,0 +1,13 @@
+POST http://localhost:3001/tasks
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2OTc3YzlkNmEwM2NhYjlmY2FiNmI3NTIiLCJlbWFpbCI6InRlc3RAZG9lLmNvbSIsImlhdCI6MTc3MDAzNjQ4OCwiZXhwIjoxNzcwMTIyODg4fQ.AN7kiTsXY3sKPHUPqj0UAtyTaQUInGeroqmGwWLtqa4
+{
+    "title": "Task  NEW with Auth",
+    "dueDate": "2025-01-01T12:00:00Z",
+    "description": "Lorem TASK POST",
+    "priority":"normal",
+    "status":"completed",
+    "user": ""
+
+    
+}

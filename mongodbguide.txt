@@ -1,0 +1,14 @@
+MONGODB SHELL - NË TERMINAL
+mongosh "mongodb+srv://clustertodo.dxpsyi0.mongodb.net/" --apiVersion 1 --username YOUR_USERNAME --password YOUR_PASSWORD
+
+ Zëvendësoni YOUR_USERNAME dhe YOUR_PASSWORD me kredencialet tuaja!
+
+
+MONGODB COMPASS - Connection String
+mongodb+srv://YOUR_USERNAME:YOUR_PASSWORD@clustertodo.dxpsyi0.mongodb.net/
+
+ Zëvendësoni YOUR_USERNAME dhe YOUR_PASSWORD me kredencialet tuaja!
+
+
+KONFIGURIMI NË PROJEKTIN TUAJ
+Mos harroni ta zëvendësoni connection string-un edhe tek metoda bootstrap() në file-in index.js me kredencialet tuaja.

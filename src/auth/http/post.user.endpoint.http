@@ -1,0 +1,8 @@
+POST http://localhost:3001/users/create
+
+
+
+{
+  "email": "test@doe.com", 
+  "password": "Test123#"
+}
